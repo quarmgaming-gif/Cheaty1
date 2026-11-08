@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "carbclient",
+  "version": "${version}",
+  "name": "Carb Client",
+  "description": "Client-side GUI and configurable utility-module scaffold.",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.carb.client.CarbClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
